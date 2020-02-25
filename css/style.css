@@ -1,0 +1,441 @@
+
+		
+*{ 
+padding: 10;
+margin: 10;
+box-sizing: border-box;
+
+}
+		
+body{
+	background: url(image/bg0.jpg);
+	background-repeat: repeat;
+}
+.wrapper{
+	background: url(image/bg0.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+.navbar {
+  height: 80px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: -8px;
+}
+
+.navbar .logo {
+  width: 200px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.navbar ul {
+  float: right;
+  margin: 0px;
+  margin-right: 26px;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.navbar ul li a {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 6px 13px;
+  text-decoration: none;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: red;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+.wrapper .center{
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+	/* left: 50%; */
+	/* top: 23%; */
+	/* transform: translate(-50%, -50%); */
+	font-family: sans-serif;
+	/* user-select: none; */
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	/* width: 100%; */
+	font-weight: bold;
+	/* text-align: center; */
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	/* margin: 35px 280px; */
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: -27px solid #cc0000;
+	border-radius: -5px;
+	transition: .4s;
+}
+.buttons .btn2{
+	/* margin-left: 164px;
+    margin-top: -50px; */
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+/* img {
+    -webkit-filter: grayscale(100%) contrast(110%) blur(1px); Chrome, Safari, Opera
+/*     filter: grayscale(100%); */
+.test {
+	height: 300px;
+	width: 26%;
+	line-height: 300px;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/07/7c/59/077c591a-139c-9968-2aad-86a0a8855eb1/source/1200x630bb.jpg');
+	position: relative;
+	text-align: center;
+	color: #fff;
+	box-shadow: 0 10px 40px #ffb;
+	cursor: pointer;
+
+}
+
+  .test p {
+	font-size: 23px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;     
+  
+  }
+  .test2 {
+	background-image: url('https://secureimg.stitcher.com/feedimageswide/480x270_52324.jpg');
+	line-height: 300px;
+	height: 300px;
+	width: 26%;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	text-align: center;
+	box-shadow: 0 10px 40px #ffb;
+	cursor: pointer;
+  }
+  .test3 {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.6)), url('https://www.thehiddenwhy.com/wp-content/uploads/2019/09/tedtalksdaily.jpg');
+	height: 300px;
+	width: 26%;
+	background-size: cover;
+	position: relative;
+	line-height: 300px;
+	text-align: center;
+	color: #333;
+	box-shadow: 0 10px 40px #ffb;
+	cursor: pointer;
+
+  }
+  .test2 p {
+	color: aqua;
+	display: inline-block;
+	background-color: rgba(0,0,0,.6);
+	padding: 0px;
+    width: 100%;
+        margin-top: 0px;
+}
+}
+  .test3 p {
+	position: relative;
+	color: #fff;
+	text-transform: uppercase;
+	/* bottom: 10px; */
+	vertical-align: middle;
+
+  }
+  .inputs{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 35px;
+  }
+  /* / Inputs Group 1 / */
+  .inputs .inputs-group-1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+  }
+  
+  /* / Inputs Group 2 / */
+  .inputs .inputs-group-2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+  }
+  
+  /* / Inputs Group 3 / */
+  .inputs-group-3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .inputs-group-3 input::placeholder{
+	color: #7f8c8d
+  }
+  
+  .inputs-group-3 input{
+	padding: 12px;
+	margin-bottom: 14px;
+	width: 40%;
+	border: 1px solid white;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+  }
+  
+  /* / Inputs Properties / */
+  .inputs input{
+	padding: 12px;
+	margin-bottom: 14px;
+	border: 1px solid white;
+	background-color: rgba(0,0,0,0.4);
+	width: 80%;
+	color: white;
+  }
+  
+  .inputs input:focus, .inputs-group-3 input:focus {
+	color: white;
+	border: none;
+  }
+  
+  /* / Inputs Placeholder / */
+  .inputs input::placeholder{
+	color: #7f8c8d;
+  }
+  
+  .submit{
+	padding: 12px;
+	width: 150px;
+	border: none;
+	cursor: pointer;
+	border: 1px solid white;
+	background-color: #b9240a;
+	color: white;
+  }
+  
+  .submit:focus{
+	display:none ;
+  }
+
+.img-podcast {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 90px;
+	flex-wrap: wrap;
+
+}
+
+/* .test :hover {
+    transform: scale(1.1);
+  }
+.test2 :hover .test2{
+    transform: scale(1.1);
+  }
+.test3 :hover .test3{
+    transform: scale(1.1);
+  } */
+
+.groupe-buttons {
+	display: flex;
+	justify-content: space-around;	
+margin-top: 50px;
+
+}
+.groupe-buttons button {
+	/* display: flex; */
+	margin-left: 10px;
+
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.footer {
+	background: rgba(0,0,0,0.4);
+	padding: 30px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.cp-text {
+	text-align: center;
+	color: #fff;
+
+}
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*/
+.global {
+    display: flex;
+    flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	justify-content: space-around;
+	
+}
+.g-podcast {
+    border: 0px solid #FFF;
+	width: 26%;
+	text-align: center;
+    
+}
+.g-podcast p {
+	color: rgb(36, 49, 92);
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #bbbb;
+	line-height: 200%;
+	margin: 13px 50px 28px;
+    /* line-height: 1.4; */
+    /* color: #333; */
+
+}
+.g-podcast h1 {
+	color: #FFF;
+	opacity: 1;
+	margin: 0 0 15px;
+    /* line-height: 1.4; */
+    /* color: #333; */
+
+	
+}
+
+.global g-podcast {
+    margin-left: 10px;
+    width: 26%;
+}
+.test1 {
+    top: 0px;
+	
+	height: 300px;
+	line-height: 300px;
+	position: relative;
+	box-shadow: 0 -9px 27px #ffb;
+	display: flex;
+	flex-wrap: wrap;
+
+    
+}
+.test1 h1 {
+	text-align: center;
+	display: inline-block;
+	background-color: rgba(0,0,0,.5);
+	padding: 0px;
+	width: 100%;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	position: relative;
+	vertical-align: middle;	
+}
+
+.global {
+    display: flex;
+    flex-wrap: wrap;
+	width: 100%;
+	padding: 10px;
+}
+.global g-podcast {
+    margin-left: 10px;
+    width: 32%;
+}
+.global .test {
+    width: 100%;
+    
+
+}
+
+
+@media (max-width: 700px) {
+	.img-podcast {
+		flex-direction: column;
+		padding: 10px;
+		justify-content: space-between;
+
+	}
+	.test {
+		width: 100%;
+		/* margin-bottom: -10px; */
+}
+	.test2 {
+		width: 100%;
+		margin-top: 10px;
+		/* margin-bottom: -10px; */
+	}
+
+	.test3 {
+		width: 100%;
+		margin-top: 20px;
+		/* margin-bottom: -10px; */
+	}
+	.center h1 {
+		font-size: 30px;
+	}
+	.buttons button {
+		/* width: 50%;
+		height: 50%; */
+		font-size: 15px;
+		
+	}
+	.navbar .logo {
+		margin-left: 30%;
+	}
+	.navbar ul li a {
+		font-size: 18px;
+		position: relative;
+	}
+	.g-podcast  {
+		width: 100%;
+		flex-direction: column;
+		/* margin-top: 130%; */
+		
+	}
+	.wrapper {
+		height: 160vh;
+	}
+}

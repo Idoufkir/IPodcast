@@ -1,0 +1,378 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+$color: red;
+$color1: #551A8B;
+$black: black;
+
+body {
+    background: url(mic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+//navbare//
+.navbar {
+    height: 80px;
+    background: rgba(0, 0, 0, 0.4);
+    margin: -8px;
+}
+
+.navbar .logo {
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.navbar ul {
+    float: right;
+    margin: 0px;
+    margin-right: 26px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: red;
+}
+
+//container//
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #bbbb;
+}
+
+.container img {
+    height: 224px;
+    margin-top: 88px;
+    margin-left: 279px;
+}
+
+.text {
+    margin-top: 60px;
+}
+
+.h1 {
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 24px;
+    color: $black;
+}
+
+.p {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 25px;
+    color: $black;
+
+    a {
+        text-decoration: none;
+        color: $color1;
+    }
+
+}
+
+
+.p2 {
+    margin-top: 130px;
+    font-size: 30px;
+    margin-left: -230px;
+    color: $black;
+}
+
+//contact//
+.contact {
+
+    float: right;
+    margin-top: -395px;
+    margin-right: 238px;
+    background: #9589715e;
+    border-radius: 20px;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+//play liste//
+#liste #list {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0px;
+    padding: 0px;
+    margin-left: 235px;
+    margin-right: 222px;
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+#liste #list h4 {
+    margin-left: 0;
+}
+
+#liste #list h5 {
+    margin-top: -28px;
+    margin-right: 5px;
+}
+
+#liste #listeT {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin-left: 236px;
+    margin-right: 222px;
+    margin-top: 10px;
+
+
+}
+
+h4 {
+    margin-left: 236px;
+    margin-top: -60px;
+    float: left;
+    padding: 5px;
+    overflow: hidden;
+    color: white;
+}
+
+h5 {
+    margin-right: 262px;
+    float: right;
+    margin-top: -33px;
+    color: white;
+}
+
+//player//
+.arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.arrows i {
+    cursor: pointer;
+}
+
+//formulaire//
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 33px;
+}
+
+.input1 input {
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin-top: 9px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.input2 {
+    margin-top: -1px;
+}
+
+.input2 input {
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin-top: 10px;
+
+    color: white;
+    font-size: 20px;
+
+}
+
+#data {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 40px;
+    // border-color: #97f6f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+//les button//
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.add {
+    background-color: $black;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    width: 200px;
+    margin-left: 20px;
+    color: white;
+
+}
+
+
+.icon {
+    margin-top: 7px;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+//medias query
+@media screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+        order: 0;
+    }
+
+    #liste {
+        margin-top: 380px;
+    }
+
+    #liste #listeT {
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+    .container img {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .container .text {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .conatiner .text h1 {
+        text-align: center;
+    }
+
+    .container .text .p2 {
+
+        margin-top: 60px;
+        margin-left: 0px;
+
+    }
+
+
+    #list {
+        right: 34%;
+        position: relative;
+        width: 100%;
+        order: 1;
+    }
+
+    #list #listeT #name {
+        margin-left: 50px;
+    }
+
+    #list #listeT #datee {
+        margin-right: 20px;
+    }
+
+    #list #listeT #time {
+        margin-right: 80px;
+    }
+
+    .contact {
+        float: left;
+        margin-top: 12px;
+        margin-left: 180px;
+    }
+
+    .inputs {
+        width: 100%;
+    }
+
+    .arrows {
+        margin-left: -20px;
+        position: relative;
+        right: -2%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .contact {
+        margin-left: 190px;
+    }
+
+    .input {
+        margin-left: 15px;
+    }
+
+    .arrows {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .container .text .p2 {
+        margin-top: 60;
+    }
+
+    .container img {
+        width: 61%;
+        margin-top: 10px;
+        height: 339px;
+        margin-left: 135px;
+    }
+
+    .navbar ul {
+        float: right;
+        margin-right: 20px;
+    }
+
+    .navbar .logo {
+        margin-left: 170px;
+    }
+
+}

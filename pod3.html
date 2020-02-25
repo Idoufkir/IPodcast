@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pod1.css">
+    <title>Business Daily</title>
+</head>
+<body>
+
+   <!-- menu -->
+    <nav class="navbar">
+        <img class="logo" src="logo.png">
+        <ul>
+            <li><a href="index.html">Home</a>
+            <li><a href="pod1.html">Marvel Cinematic</a></li>
+            <li><a href="pod2.html">TED Talks</a></li>
+            <li><a class="active" href="pod3.html">Business Daily</a></li>
+        </ul>
+    </nav>
+
+    <!-- //container -->
+    <div class="container"style="height: 480px;">
+        <div class="img">
+            <img src="a1676a7c83133214aa3945091402f5ef.jpg" alt="podcasteur">
+        </div>
+        <div class="text" style="width: 864.617px;">
+            <h1 class="h1">Business Daily Podcast</h1>
+            <p class="p">Category:  <a href="https://www.spreaker.com/business" target="blank">Business</a></p>
+            <p class="p">Created by: <a href="https://www.spreaker.com/user/8351445" target="blank">BBC</a></p>
+            <p class="p2"> The daily drama of money and work from the BBC.  </p>
+           
+        </div>
+    </div>
+
+  <!-- contact -->
+    <div class="contact">
+        <p class="conta"><center>Contacts</p></center>
+        <h6>Twitter : <a href="https://twitter.com/bbcbusiness"> @BBCBusiness </a></h6>
+        <h6>iTunes : <a href="https://podcasts.apple.com/us/podcast/business-daily/id261786876"> https://podcasts.apple.co... </a></h6>
+    </div>
+      <!-- //liste -->
+      <div id="liste">
+        <div id="list" onclick="liste7()">
+  
+            <div id = "listeT">
+              <h1 id="name">Cognac and hip hop </h1>
+              <h1 id="datee">24 Feb </h1>
+              <h1 id="time">18:22</h1>
+            </div>
+            <h4>Description</h4>
+            <h5> #Business , #BBC</h5>
+  
+      </div> 
+      <div id="list" onclick="liste8()">
+          <div id = "listeT">
+              <h1 id="name">The Airbnb rental scammers </h1>
+              <h1 id="datee">21 Feb </h1>
+              <h1 id="time">18:28</h1>
+          </div>
+          <h4>As the holiday lettings platform prepares for an IPO, <br>what is Airbnb doing to clamp down on bogus,<br> unregulated and unsafe property listings</h4>
+          <h5>#Airbnb, #BBC, #Business</h5>  
+          </div> 
+      <div id="list" onclick="liste9()">
+          <div id = "listeT">
+              <h1 id="name">A robot future and how to handle it </h1>
+              <h1 id="datee">18 Feb </h1>
+              <h1 id="time">18:45</h1>
+            </div>
+            <h4>A just for fun episode.</h4>
+            <h5>#trek, #versus, #wars</h5>  
+          </div>  
+      </div>
+
+    <!-- input Music -->
+    <div class="inputs">
+        <div class="input1">
+            <input id="title" type="text" placeholder="Title">
+            <input id="data" type="text" placeholder="the song link">
+            <input id="Description" type="text" placeholder="Description">
+        </div>
+        <div class="input2">
+            <input id="Duration" type="text" placeholder="Duration">
+            <input id="Date" type="text" placeholder="Date/Heure">
+            <input id="Tags" type="text" placeholder="Associated Tags">
+        </div>
+    </div>
+
+    <div  class="button">
+    <button class="add" onclick="add()">Submit</button>
+    <button class="add" onclick="pop()">Pop </button>
+</div>
+
+<!-- //arrows -->
+    <div class="arrows">
+        <i onclick="prev()" class="fa fa-chevron-left" style="font-size:40px;color: #2b8179;"></i>
+        <audio controls id="audio" >
+       <source></audio>
+        <i onclick="next()" class="fa fa-chevron-right" style="font-size:50px;color: #2b8179;"></i>
+    </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="pod1.js"></script>
+</body>
+</html>

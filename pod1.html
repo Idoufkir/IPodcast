@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pod1.css">
+    <title>Marvel Cinematic</title>
+</head>
+<body>
+
+   <!-- menu -->
+    <nav class="navbar">
+        <img class="logo" src="logo.png">
+        <ul>
+            <li><a href="index.html">Home</a>
+                <li><a class="active" href="pod1.html">Marvel Cinematic</a></li>
+                <li><a href="pod2.html">TED Talks</a></li>
+                <li><a href="pod3.html">Business Daily</a></li>
+        </ul>
+    </nav>
+
+    <!-- //container -->
+    <div class="container" style="height: 480px;">
+        <div class="img">
+            <img src="1919df1a5238c4c7ea4169716cd8fe69.jpg" alt="podcasteur">
+        </div>
+        <div class="text" style="width: 864.617px;">
+            <h1 class="h1">Marvel Cinematic Universe Podcast</h1>
+            <p class="p">Category:  <a href="https://www.spreaker.com/tv-film" target="blank">TV & Film</a></p>
+            <p class="p">Created by: <a href="https://www.spreaker.com/user/mcucast" target="blank">Stranded Panda </a></p>
+            <p class="p2">Your one stop hub for all discussion, news, and insight into what is happening with Marvel Studios.<br> We love this stuff and want you to, too! </p>
+           
+        </div>
+    </div>
+
+  <!-- contact -->
+    <div class="contact">
+        <p class="conta"><center>Contacts</p></center>
+        <h6>Facebook : <a href=""> facebook page </a></h6>
+        <h6>iTunes : <a href=""> https://podcasts.apple.co... </a></h6>
+    </div>
+      <!-- //liste -->
+      <div id="liste">
+        <div id="list" onclick="liste1()">
+  
+            <div id = "listeT">
+              <h1 id="name">Sam Raimi to Direct Dr. Strange 2</h1>
+              <h1 id="datee">17 jan </h1>
+              <h1 id="time">77:30</h1>
+            </div>
+            <h4>Description</h4>
+            <h5> #TV & Film, #avengers</h5>
+  
+      </div> 
+      <div id="list" onclick="liste2()">
+          <div id = "listeT">
+              <h1 id="name">Disney+ Endgame deleted scenes part 2 </h1>
+              <h1 id="datee">20 jan</h1>
+              <h1 id="time">17:58</h1>
+          </div>
+          <h4>Description</h4>
+          <h5>#from, #home, #infinity</h5>  
+          </div> 
+      <div id="list" onclick="liste3()">
+          <div id = "listeT">
+              <h1 id="name">Star Wars is better than Star Trek </h1>
+              <h1 id="datee">1 Dec </h1>
+              <h1 id="time">12:13</h1>
+            </div>
+            <h4>A just for fun episode.</h4>
+            <h5>#trek, #versus, #wars</h5>  
+          </div>  
+      </div>
+
+    <!-- input Music -->
+    <div class="inputs">
+        <div class="input1">
+            <input id="title" type="text" placeholder="Title">
+            <input id="data" type="text" placeholder="the song link">
+            <input id="Description" type="text" placeholder="Description">
+        </div>
+        <div class="input2">
+            <input id="Duration" type="text" placeholder="Duration">
+            <input id="Date" type="text" placeholder="Date/Heure">
+            <input id="Tags" type="text" placeholder="Associated Tags">
+        </div>
+    </div>
+
+    <div  class="button">
+    <button class="add" onclick="add()">Submit</button>
+    <button class="add" onclick="pop()">Pop </button>
+</div>
+
+<!-- //arrows -->
+    <div class="arrows">
+        <i onclick="prev()" class="fa fa-chevron-left" style="font-size:40px;color: #2b8179;"></i>
+        <audio controls id="audio" >
+       <source></audio>
+        <i onclick="next()" class="fa fa-chevron-right" style="font-size:50px;color: #2b8179;"></i>
+    </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="pod1.js"></script>
+</body>
+</html>
